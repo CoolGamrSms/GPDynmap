@@ -1,0 +1,21 @@
+group 'com.shaneschulte.gpdynmap'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+defaultTasks 'build'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+    maven { url 'https://papermc.io/repo/repository/maven-public/' }
+    maven { url 'http://repo.mikeprimm.com/' }
+}
+
+dependencies {
+    compile 'com.destroystokyo.paper:paper-api:1.13.1-R0.1-SNAPSHOT'
+    compile 'com.github.TechFortress:GriefPrevention:16.11.4'
+    compile 'us.dynmap:dynmap-api:3.0-SNAPSHOT'
+}

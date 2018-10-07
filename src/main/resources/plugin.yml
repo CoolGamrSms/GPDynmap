@@ -1,0 +1,6 @@
+name: GPDynmap
+authors: [SamOatesPlugins, CoolGamrSms]
+version: 1.0.0
+main: com.shaneschulte.gpdynmap.GPDynmap
+api-version: 1.13
+depend: [GriefPrevention, dynmap]
